@@ -7,7 +7,7 @@ function SearchContainer({list}) {
     const SearchedFilteredContent=(e)=>{
             const filterArray=list.filter((item)=>item.text.contains(e.target.value))
             setFilteredList(filterArray)
-            console.log(filterArray)
+           
         
     }
   return (
