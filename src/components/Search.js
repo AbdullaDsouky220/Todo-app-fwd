@@ -14,7 +14,7 @@ export default function Search({list,SearchedContent}) {
    <div  className='search-input-container'>
       <InputBase
      
-        sx={{ ml: 1, flex: 2 }}
+        sx={{ ml: 1, flex: 1 }}
         placeholder="Search on your tasks"
         inputProps={{ 'aria-label': 'search on your tasks' }}
         onChange={(e)=>SearchedContent(e)}
